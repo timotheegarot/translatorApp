@@ -166,6 +166,13 @@ body {
   background: #06283d;
 }
 
+.container button:hover {
+  border: 1px solid #06283d;
+  color: #06283d;
+  border-radius: 5px;
+  background: #fff;
+}
+
 @media (max-width: 660px) {
   .container {
     padding: 20px;
