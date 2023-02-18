@@ -121,3 +121,14 @@ body {
   border-radius: 8px;
   border-right: 2px solid #fff;
 }
+
+.controls, .exchange {
+  color: #adadad;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2 ease;
+}
+
+.controls i:active {
+  transform: scale(0.9);
+}
