@@ -169,8 +169,8 @@ body {
 .container button:hover {
   border: 1px solid #06283d;
   color: #06283d;
-  border-radius: 5px;
   background: #fff;
+  transition: 0.5s;
 }
 
 @media (max-width: 660px) {
