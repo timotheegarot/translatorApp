@@ -50,3 +50,17 @@ translateBtn.addEventListener("click", () => {
     toText.setAttribute("placeholder", "Translation");
   });
 });
+
+icons.forEach(icon => {
+  icon.addEventListener("click", ({target}) => {
+    if (!fromText.value || !toText.value) return;
+    if (target.classList.contains("fa-copy")) {
+      if(target.id == "from") {
+        navigator.clipboard.writeText(fromText.value);
+      }
+      else {
+        navigator.clipboard.writeText(toText.value);
+      }
+    }
+  })
+})
