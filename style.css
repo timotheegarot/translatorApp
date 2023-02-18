@@ -90,6 +90,22 @@ body {
   border-left: 1px solid #ccc;
 }
 
+.tooltip .tooltipText {
+  visibility: hidden;
+  width: 20px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltipText {
+  visibility: visible;
+}
+
 .controls .row select {
   color: #333;
   border: none;
