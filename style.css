@@ -86,6 +86,11 @@ body {
   justify-content: center;
 }
 
+.controls .row .icons i:hover {
+  color: #000;
+  transition: 0.3s;
+}
+
 .controls .row.from .icons {
   padding-right: 15px;
   border-right: 1px solid #ccc;
