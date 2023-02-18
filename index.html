@@ -9,7 +9,23 @@
   <title>TranslatorApp</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="wrapper">
+      <div class="text-input">
+        <textarea class="from-text" spellcheck="false" placeholder="Enter text"></textarea>
+        <textarea class="to-text" spellcheck="false" readonly disabled placeholder="Translation"></textarea>
+      </div>
+
+      <ul class="controls">
+        <li class="row from">
+          <div class="icons">
+            <i id="from" class="fas fa-volume-up"></i>
+            <i id="from" class="fas fa-copy"></i>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
 
   <script src="countries.js"></script>
   <script src="index.js"></script>
