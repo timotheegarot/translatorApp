@@ -56,7 +56,7 @@ body {
   color: #b7b6b6;
 }
 
-.controls, li, .icons, .icons i {
+.controls, li, .tooltip, .tooltip i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,11 +67,11 @@ body {
   padding: 12px 15px;
 }
 
-.controls .row .icons {
+.controls .row .tooltip {
   width: 38%;
 }
 
-.controls .row .icons i {
+.controls .row .tooltip i {
   width: 50px;
   color: #adadad;
   font-size: 14px;
@@ -80,12 +80,12 @@ body {
   justify-content: center;
 }
 
-.controls .row.from .icons {
+.controls .row.from .tooltip {
   padding-right: 15px;
   border-right: 1px solid #ccc;
 }
 
-.controls .row.to .icons {
+.controls .row.to .tooltip {
   padding-left: 15px;
   border-left: 1px solid #ccc;
 }
@@ -164,7 +164,7 @@ body {
     height: 200px;
   }
 
-  .container .row.icons {
+  .container .row.tooltip {
     display: none;
   }
 
