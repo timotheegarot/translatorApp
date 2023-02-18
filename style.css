@@ -98,3 +98,26 @@ body {
   background: none;
   padding-left: 5px;
 }
+
+.text-input textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+.controls .row select::-webkit-scrollbar {
+  width: 8px;
+}
+
+.text-input select::-webkit-scrollbar-track, .controls .row select::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.text-input textarea::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 8px;
+}
+
+.controls .row select::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 8px;
+  border-right: 2px solid #fff;
+}
